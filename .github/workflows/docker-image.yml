@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: ${{ github.event_name != 'pull_request' }}
-        tags: ko178b4/demo_NER:latest
+        tags: ko178b4/demo_ner:latest
